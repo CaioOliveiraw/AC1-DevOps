@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Formulários</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <h2>Preencha este formulário para receber um livro de SQL novinho</h2>
+    <form method="POST">
+        <label>Endereço</label><br/>
+        <input type="text" maxlength="120" name="adress" size="50" placeholder="Endereço"/><br/>
+
+    </form>
+    <select name="UF">
+        <option value="SP">São Paulo</option>
+        <option value="RJ">Rio de janeiro</option>
+        <option value="BH">Bahia</option>
+
+    </select> Algumas cidades disponíveis apenas.<br/>
+    <form>
+        <label>CPF</label><br/>
+        <input type="text" maxlength="11" name="cpf" placeholder="CPF"/><br/>
+        <input type="submit" value="Salvar"/>    
+    </form><br/>
+    <input type="checkbox" name="agree" value="agree">Concorda em compartilhar suas informações para fins de pesquisa?
+</body>
+</html>
